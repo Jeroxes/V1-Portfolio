@@ -16,6 +16,7 @@ h1{
     padding: 30px;
     margin: 50px;
     border-radius: 30px;
+    position: sticky;
 }
 h2{
     color:black;
@@ -93,3 +94,19 @@ nav ul{
 .carousel-item.active{
     display: flex;
 }
+
+/* RESPONSIVE */
+@media (max-width:768px){
+   .imagenes{
+    grid-template-columns: repeat(2,1fr)
+}
+}
+
+@media(max-width: 375px){
+    .imagenes{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
