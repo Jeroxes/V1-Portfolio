@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url('../resources/typo/static/Quicksand-Bold.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: black;
+    background-color:#D4CDC3;
+    text-align: center;
+    font-family: Quicksand-Bold;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 30px;
+}
+h2{
+    color:black;
+    background-color: #F8F4E3;
+    text-align: center;
+}
+#art{
+    font-size: 60px;
+}
+
+/* ------MENU DE NAVEGACION------- */
+.navegacion{
+    background-color: #D5D0CD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: center;
+    padding: 10px;
+
+}
+.navegacion a{
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+}
+.parrafo img{
+    display: inline;
+    height: 200px;
+
+}
+
+.form input {
+    display: block;
+    padding: 5px;
+    align-items: center;
+    
+}
+
+.imagenes img{
+    height: 400px;
+}
+.elipse{
+    display: flex;
+    justify-content: center;
+    
+}
+.links {
+    text-align: center;
+}
