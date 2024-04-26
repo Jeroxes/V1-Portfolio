@@ -81,7 +81,7 @@ h2 {
 
 
 .navegacion {
-    background-color: #D5D0CD;
+    background-color: #D4CDC3;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 10px;
@@ -139,8 +139,10 @@ nav ul {
 
 }
 
-.links {
+.links a {
     text-align: center;
+
+
 }
 
 /* Carrousel */
@@ -179,9 +181,44 @@ nav ul {
     }
 }
 
-.container .links-1{
+.container .links-1 {
     justify-content: flex-end;
 }
-.container .links-2{
+
+.container .links-2 {
     justify-content: flex-start;
+}
+
+
+
+.links a {
+    /*Todos los elementos <a>*/
+
+    display: inline-block;
+
+    padding: 10px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: #D4CDC3;
+
+    color: rgb(10, 10, 60);
+
+}
+
+.links a:link {
+    background-color: #D4CDC3;
+    color: #D4CDC3;
+}
+
+.links a:hover {
+
+    font-weight: bold;
+
+    padding: 20px;
+
+    box-shadow: 2px 2px 2px 2px;
+
+
+
 }
