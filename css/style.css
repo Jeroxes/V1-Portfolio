@@ -146,14 +146,12 @@ nav ul {
 }
 
 /* Carrousel */
-.carousel-item {
-    width: auto;
-    height: 500px;
-    transition: transform 0s ease-in-out;
+.carousel{
+    width: 700px;
+    margin: auto;
 }
-
-.carousel-item.active {
-    display: flex;
+.carousel-item img{
+    height: 500px;
 }
 
 /* RESPONSIVE */
