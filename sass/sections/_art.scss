@@ -1,0 +1,36 @@
+.imagenes {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 500px);
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+
+    img {
+        height: 400px;
+        margin: 5px;
+        border-radius: 10px;
+        background-color: #e9decf;
+        margin: 10px;
+        display: flex;
+        padding: 10px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.408);
+
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .imagenes {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media(max-width: 375px) {
+    .imagenes {
+        grid-template-columns: 1fr;
+    }
+
+}

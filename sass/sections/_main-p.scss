@@ -1,0 +1,41 @@
+/* Carrousel */
+.carousel{
+    width: 700px;
+    margin: auto;
+}
+.carousel-item img{
+    height: 500px;
+}
+
+
+.links a {
+    /*Todos los elementos <a>*/
+
+    display: inline-block;
+
+    padding: 10px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: #D4CDC3;
+
+    color: rgb(10, 10, 60);
+
+}
+
+.links a:link {
+    background-color: #D4CDC3;
+    color: #D4CDC3;
+}
+
+.links a:hover {
+
+    font-weight: bold;
+
+    padding: 20px;
+
+    box-shadow: 2px 2px 2px 2px;
+
+
+
+}
