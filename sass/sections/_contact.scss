@@ -4,5 +4,25 @@
     .form-imput{
         margin: 20px;
         width: 200px;
+        border: 1px black solid;
+        border-radius: 10px;
+        resize: none;
     }
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }

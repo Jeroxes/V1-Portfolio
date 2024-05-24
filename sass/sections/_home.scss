@@ -1,7 +1,20 @@
 .description{
- background-color: #F8F4E3; 
     display: flex;
-    width: 100%; 
+    justify-content: center;
     align-items: center; 
     flex-direction: column; 
+}
+.elipse {
+    margin: 20px;
+    height: 600px;
+
+}
+
+body{
+    background-color: #fef9f6;
+}
+
+.home-container{
+    display: flex;
+    justify-content: center
 }

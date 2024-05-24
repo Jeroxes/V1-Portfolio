@@ -21,6 +21,10 @@
 
     color: rgb(10, 10, 60);
 
+    margin: 10px;
+    
+    text-decoration: none;
+
 }
 
 .links a:link {
@@ -32,10 +36,15 @@
 
     font-weight: bold;
 
-    padding: 20px;
+    padding: 10px;
 
     box-shadow: 2px 2px 2px 2px;
 
 
 
 }
+
+.links{
+    display: flex;
+    justify-content: center;
+     }

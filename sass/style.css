@@ -32,6 +32,7 @@ h1 {
 
 .links-1 {
   grid-area: links-1;
+  margin: 0;
 }
 
 .logo {
@@ -44,6 +45,7 @@ h1 {
 
 .links-2 {
   grid-area: links-2;
+  margin: 0;
 }
 
 .container ul,
@@ -108,11 +110,6 @@ nav ul {
   display: flex;
   padding: 10px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.408);
-}
-
-.elipse {
-  display: flex;
-  justify-content: center;
 }
 
 .links a {
@@ -181,6 +178,8 @@ nav ul {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #D4CDC3;
   color: rgb(10, 10, 60);
+  margin: 10px;
+  text-decoration: none;
 }
 
 .links a:link {
@@ -190,16 +189,34 @@ nav ul {
 
 .links a:hover {
   font-weight: bold;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 2px 2px 2px 2px;
 }
 
-.description {
-  background-color: #F8F4E3;
+.links {
   display: flex;
-  width: 100%;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.elipse {
+  margin: 20px;
+  height: 600px;
+}
+
+body {
+  background-color: #fef9f6;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
 }
 
 .form-container {
@@ -209,4 +226,23 @@ nav ul {
 .form-container .form-imput {
   margin: 20px;
   width: 200px;
+  border: 1px black solid;
+  border-radius: 10px;
+  resize: none;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
