@@ -48,3 +48,41 @@
     display: flex;
     justify-content: center;
      }
+
+.main-p{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+     }
+#try{width: 600px;
+    
+
+}
+
+
+     @media(max-width: 1024px) {
+        .main-p{
+            font-size: smaller;
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        #try{width: 200px;
+     }
+     }
+     @media(max-width: 768){
+        .main-p{
+            font-size: smaller;
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+     }
+     .carousel{
+        width: 350px;
+        margin: 10px;
+    }
+    .carousel-item img{
+        width: 200px;
+        height: 250px;
+    }
+      }

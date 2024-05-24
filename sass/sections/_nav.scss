@@ -13,7 +13,7 @@ h1 {
 
 
 /* ------MENU DE NAVEGACION------- */
-.container {
+.nav-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
@@ -22,7 +22,15 @@ h1 {
     border-radius: 20px;
     padding: 6px;
     max-width: 850px;
-    margin: auto;
+   
+}
+
+.container{
+    width: 100vw;
+    // height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .links-1 {
@@ -44,14 +52,14 @@ h1 {
 }
 
 
-.container ul,
+.nav-container ul,
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container li {
+.nav-container li {
     margin: 0 25px;
 
     a {
@@ -86,11 +94,7 @@ nav ul {
     list-style-type: none;
 }
 
-.parrafo img {
-    display: inline;
-    height: 200px;
 
-}
 
 .form input {
     display: block;
@@ -130,22 +134,31 @@ nav ul {
 
 }
 
-.container .links-1 {
+.nav-container .links-1 {
     justify-content: flex-end;
 }
 
-.container .links-2 {
+.nav-container .links-2 {
     justify-content: flex-start;
 }
 
 /* RESPONSIVE */
 @media (max-width: 820px) {
-    .container {
+    .nav-container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas:
             "logo logo"
             "links-1 links-2";
 
+    }
+}
+
+@media (max-width: 425px){
+    .nav-container{
+        grid-template-columns: 1fr;
+    }
+    .logo img{
+        width: 20px;
     }
 }

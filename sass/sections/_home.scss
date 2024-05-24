@@ -11,10 +11,17 @@
 }
 
 body{
-    background-color: #fef9f6;
+    background-color: hwb(24 86% 10%);
+    box-sizing: border-box;
 }
 
 .home-container{
     display: flex;
     justify-content: center
+}
+
+@media (max-width: 768px){
+    .home-container{
+        display: inline-block;
+    }
 }
