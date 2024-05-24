@@ -18,12 +18,6 @@ h1 {
   position: sticky;
 }
 
-h2 {
-  color: black;
-  background-color: #F8F4E3;
-  text-align: center;
-}
-
 /* ------MENU DE NAVEGACION------- */
 .container {
   display: grid;
@@ -198,4 +192,21 @@ nav ul {
   font-weight: bold;
   padding: 20px;
   box-shadow: 2px 2px 2px 2px;
+}
+
+.description {
+  background-color: #F8F4E3;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.form-container .form-imput {
+  margin: 20px;
+  width: 200px;
 }/*# sourceMappingURL=style.css.map */
